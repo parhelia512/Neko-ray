@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.aboutlibraries)
+    id("org.lsposed.lsparanoid") version "0.6.0"
 }
 
 android {
@@ -190,4 +191,7 @@ dependencies {
     implementation(libs.fastadapter)
     implementation(libs.navigation.fragment)
     implementation(libs.picasso)
+    
+     // Spongy Castle
+    implementation("com.madgag.spongycastle:bcpkix-jdk15on:1.58.0.0")
 }
