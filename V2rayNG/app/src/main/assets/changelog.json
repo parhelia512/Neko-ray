@@ -1,5 +1,25 @@
 [
     {
+        "version": "1.10.8",
+        "date": "2025-07-01",
+        "changes": [
+            "Updare core v25.6.8",
+            "Optimize delay test, take the minimum value after two tests",
+            "Adding font selection",
+            "Fix the parsing problem of non-English domain",
+            "Adding indicator style",
+            "Fix double column display",
+            "enable VPN bypass LAN By default",
+            "Fix log for plugin",
+            "Fix missing sockopt.domainStrategy",
+            "Fix blinking QSTile when QS panel is opening",
+            "Added setting option for VPN interface address",
+            "Adjustment setting items",
+            "Added setting option for Outbound domain pre-resolve method",
+            "Optimize the source of tls sni"
+        ]
+    },
+    {
         "version": "1.10.2",
         "date": "2025-05-24",
         "changes": [
